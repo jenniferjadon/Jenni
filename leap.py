@@ -1,5 +1,5 @@
 i=int(input())
-if j%4==0:
+if i%4==0:
 	print("yes")
 else:
 	print("no")
