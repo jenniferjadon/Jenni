@@ -1,4 +1,4 @@
 N=int(float(input())
-k=int(float(input())
-s=N**k
+K=int(float(input())
+s=N**K
 print(s)
