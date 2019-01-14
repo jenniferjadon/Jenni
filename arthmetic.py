@@ -1,4 +1,4 @@
+
 n,a,d=map(int,input().split())
-for i in range(0,n):
-	c=a+(i*d)
-print(c)
+t=(n*2*a*(n-1)*d)//2
+print(t)
