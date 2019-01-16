@@ -9,5 +9,5 @@ while i<=n:
         next=first+second
         first=second
         second=next
-    print(next)
+    print(next,end=" ")
     i=i+1
