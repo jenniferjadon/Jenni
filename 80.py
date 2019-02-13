@@ -1,4 +1,6 @@
-c=input()
-for i in range(0,len(c)):
+n=input()
+x=' '
+for i in range(0,len(n)):
 	if i %2==1:
-		print(i,end=" ")
+		x=x+str(i)+' '
+print(x.strip())
