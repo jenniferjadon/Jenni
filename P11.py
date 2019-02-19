@@ -1,5 +1,5 @@
-n=input()
-if n=="saturday" or n=="sunday":
+y=input()
+if y=="saturday" or y=="sunday":
 	print("yes")
-elif n=="monday" or n=="tuesday" or n=="wednesday"  or n=="thrusday" or n=="friday":
+elif y=="monday" or y=="tuesday" or y=="wednesday"  or y=="thrusday" or y=="friday":
 	print("no")
