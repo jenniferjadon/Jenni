@@ -1,7 +1,7 @@
-def sq(num):
-    m = list(str(num)) 
-    for word in m:  
-        print(int(word)**2, end="")
-
-num =int(input())
-sq(num)
+n=input()
+s=0
+for i in n:
+    i=int(i)
+    t=i*i
+    s=s+t
+print(s)
