@@ -1,7 +1,7 @@
 k=input()
 for i in k:
-	a=n.count('(')
-	b=n.count(')')
+	a=k.count('(')
+	b=k.count(')')
 if a==b:
 	print("yes")
 else:
