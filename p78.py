@@ -1,0 +1,7 @@
+n,m=map(int,input().split())
+g=input().split()
+h=input().split()
+j=sorted(g)
+t=sorted(h)
+v=sorted(j+t)
+print(v)
