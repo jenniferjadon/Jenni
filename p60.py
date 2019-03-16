@@ -3,7 +3,8 @@ for i in range (0,len(n)):
     for i in range (0,len(m)):
         if n[i]==m[i]:
             print("yes")
-            break
-            break
-else:
+        break
+    break   
+if n[i]!=m[i]:
     print("no")
+
