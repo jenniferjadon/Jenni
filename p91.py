@@ -1,2 +1,2 @@
-n=int(input())
-print(bin(n)[2:])
+q=int(input())
+print(bin(q)[2:])
