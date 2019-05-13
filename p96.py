@@ -1,5 +1,9 @@
-a,d,n=list(map(int,input().split()))
-j=(n-1)*d
-l=(2*a)+j
-h=n//2*(l)
-print(h)
+a,d,n=map(int,input().split())
+l=[]
+y=1
+for i in range(a,1000,d):
+	if y<=n:
+		l.append(i)
+		y+=1
+s=sum(l)
+print(s)
