@@ -1,5 +1,4 @@
-#90
-a=input()
-for i in a:
+l=input()
+for i in l:
     if i.isdigit():
         print(i,end="")
