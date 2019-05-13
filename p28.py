@@ -1,2 +1,2 @@
-m,n=input().split()
-print(m+n)
+p=input()
+print(p.replace(" ",""))
