@@ -1,3 +1,4 @@
+#bin
 n,p=map(int,input().split())
 k=n*p
 s=bin(k)
