@@ -1,5 +1,5 @@
 n,m=map(int,input().split())
-s=n+m
+s=n|m
 y=bin(s)
 #print(s)
 c=0
