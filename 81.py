@@ -1,0 +1,9 @@
+m,w=list(map(int,input().split()))
+n,a=list(map(int,input().split()))
+j,l=list(map(int,input().split()))
+q=m-w
+z=n-a
+s=j-l
+print(abs(q))
+print(abs(z))
+print(abs(s))
