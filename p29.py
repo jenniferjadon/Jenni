@@ -1,10 +1,11 @@
-#jenni
-import math
-f,t=map(int,input().split())
-c=0
-for i in range(f,t+1):
-    f=math.sqrt(i)
-    if int(f+0.5)**2==i:
-        c=c+1
-print(c)
-    
+i,r=map(int,input().split())
+d=0
+for j in range(i,r+1):
+  k=2
+  while k<=r:
+    if j==k*k:
+       d=d+1 
+       break
+    k=k+1
+print(d)
+
