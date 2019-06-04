@@ -1,3 +1,4 @@
+#jenni
 import math
 f,t=map(int,input().split())
 c=0
