@@ -1,3 +1,4 @@
+#aro
 n,s,k=map(str,input().split())
 k=int(k)
 c=0
