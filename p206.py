@@ -1,6 +1,6 @@
-a=input()
+k=input()
 try:
-    int(a,16)
+    int(k,16)
     print("yes")
 except ValueError:
     print("no")
